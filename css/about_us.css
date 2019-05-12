@@ -116,6 +116,9 @@ p.p_3:first-letter {
 }
 .red_line p{
 	margin-left: 20px;
+	font-family: 'HelveticaNeueCyr';
+    font-weight: normal;
+    font-style: italic;
 }
 .p_5, .p_6 {
 	display: flex;
