@@ -37,7 +37,7 @@
 				</div>	
 			</div>
 		</header>
-<a href=""></a>
+<!-- <a href=""></a> -->
 
 
 		<div class="banner">
@@ -326,6 +326,18 @@
 	</footer>
 
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+	<script>
+
+		$(document).ready(function(){
+			$('.menu ul li a').each(function () {
+				if (this.href == location.href) $(this).addClass('active');
+			});
+		});
+
+	</script>
 
     <script  src="scripts/script.js"></script>
 
